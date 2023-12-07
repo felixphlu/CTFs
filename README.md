@@ -1,3 +1,7 @@
+---
+description: Splunk, Kali Linux, Sysmon, Virtualbox, Windows command line
+---
+
 # Homelab
 
 First I will run ifconfig to check my IP address on my Kali Linux machine

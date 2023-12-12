@@ -1,4 +1,5 @@
 # Table of contents
 
-* [CD BOTS Lab Scenario 1 (APT)](README.md)
-* [CD BOTS Lab Scenario 2 (Ransomware)](cd-bots-lab-scenario-2-ransomware.md)
+* [Remote Working XLS Detector](README.md)
+* [Malicious Doc](malicious-doc.md)
+* [Presentation As a Malware](presentation-as-a-malware.md)

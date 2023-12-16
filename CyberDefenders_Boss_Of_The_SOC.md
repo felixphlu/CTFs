@@ -4,7 +4,7 @@ description: Splunk, Virustotal, Threatcrowd
 
 # CD BOTS Lab Scenario 1 (APT)
 
-This hands on lab will be an APT scenario to begin. In the scenario, reports come in that a group called "Po01s0n1vy" targetting the Wayne Enterprises. My goal is to investigate the attack with the Lockheed Martin Kill Chain.
+This hands on lab will be an APT scenario to begin. In the scenario, reports come in that a group called "P01s0n1vy" targetting the Wayne Enterprises. My goal is to investigate the attack with the Lockheed Martin Kill Chain.
 
 <figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 

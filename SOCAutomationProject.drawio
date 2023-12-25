@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T22:31:25.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_ymYRf090fOcnXAArmxo" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T22:49:45.096Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XD24pYsB44TTrI8ug77V" version="22.1.11" type="github">
   <diagram name="Page-1" id="cOr_iawBpQ-3oXzeAAVZ">
-    <mxGraphModel dx="954" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1804" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,6 +129,44 @@
           <mxGeometry x="0.1915" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FutX3gNtFFif_879X-g--38" target="FutX3gNtFFif_879X-g--44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="713" />
+              <mxPoint x="130" y="713" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--38" value="Windows 10&lt;br&gt;Send Events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="690" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FutX3gNtFFif_879X-g--44" target="FutX3gNtFFif_879X-g--46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--44" value="Wazuh Manager&lt;br&gt;Trigger alerts &amp;amp; Perform response actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="690" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FutX3gNtFFif_879X-g--46" target="FutX3gNtFFif_879X-g--48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FutX3gNtFFif_879X-g--46" target="FutX3gNtFFif_879X-g--50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FutX3gNtFFif_879X-g--46" target="FutX3gNtFFif_879X-g--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--46" value="Shuffle&lt;br&gt;Receive Wazuh Alerts &amp;amp; Send responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="690" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--48" value="OSINT&lt;br&gt;Enrich IOCS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="580" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--50" value="TheHive&lt;br&gt;Create alert in case management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FutX3gNtFFif_879X-g--52" value="Email&lt;br&gt;Send email &amp;amp; responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="656" y="690" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

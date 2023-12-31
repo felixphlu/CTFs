@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T05:29:06.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DKFyRGscvw76NDAZpaJQ" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T05:34:35.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bhp1sDFjlJD9ck8mHmxo" version="22.1.16" type="github">
   <diagram name="Page-1" id="cOr_iawBpQ-3oXzeAAVZ">
     <mxGraphModel dx="1839" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -153,8 +153,15 @@
         <mxCell id="FutX3gNtFFif_879X-g--51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FutX3gNtFFif_879X-g--46" target="FutX3gNtFFif_879X-g--50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FutX3gNtFFif_879X-g--53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FutX3gNtFFif_879X-g--46" target="FutX3gNtFFif_879X-g--52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FutX3gNtFFif_879X-g--53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FutX3gNtFFif_879X-g--46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580.0000000000001" y="690" as="sourcePoint" />
+            <mxPoint x="771.09" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="670" />
+              <mxPoint x="771" y="670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FutX3gNtFFif_879X-g--46" value="Shuffle&lt;br&gt;Receive Wazuh Alerts &amp;amp; Send responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="690" width="290" height="40" as="geometry" />
@@ -166,7 +173,7 @@
           <mxGeometry x="425" y="800" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FutX3gNtFFif_879X-g--52" value="Email&lt;br&gt;Send email &amp;amp; responsive actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="656" y="690" width="200" height="40" as="geometry" />
+          <mxGeometry x="660" y="690" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
